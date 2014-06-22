@@ -19,8 +19,9 @@ import os
 
 __author__ = 'fabio'
 #0      Success
+#592	TDI Client Error
 #997    Overlapped I/O is in progress
-SUCCESS_RETCODES = (0, 997)
+SUCCESS_RETCODES = (0, 592, 997)
 
 
 def winerror_on_retcode(funct):
